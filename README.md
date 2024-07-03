@@ -188,7 +188,7 @@ GridSearchCV was used to perform hyperparameter tuning across:
 | Linear Regression | 6.59442825355e+35  | -1.29     |
 | Ridge Regression  | 2593400447890      | 0.49      |
 | Lasso Regression  | 2593931454823      | 0.49      |
-| Gradient Boosting | 1677991963670      | 0.67      |
+| Gradient Boosting | 1675809701616      | 0.67      |
 
 
 - **Linear Regression:**
@@ -201,15 +201,15 @@ The R-squared is 0.49. Not a strong R-squared metric. Also the MSE is quite high
 The R-squared is also similar to Ridge Regression: 0.49. Again, not a strong R-squared metric. Also the MSE is quite high (2593931454823). So this model may not be the best fit either.
 
 - **Gradient Boosting:**
-The default model settings provided these metrics:
-  - **Mean Squared Error:** 1677991963670.7976 
+The Gradient Boosting model provided these metrics:
+  - **Mean Squared Error:** 1675809701616.251
   - **R-squared:** 0.67 <p>
 
 - **Analysis in favor of Gradient Boosting:**
-  The R-squared is much better than the Ridge or Lasso Regressions and also the MSE is relatively much smaller (1677991963670 vs. 2593400447890).<p>
-  Hyper parameter tuning for Gradient Boosting did not result in better results. So default model works best.
+  The R-squared is much better than the Ridge or Lasso Regressions and also the MSE is relatively much smaller (1675809701616 vs. 2593400447890).<p>
+  Hyper parameter tuning for Gradient Boosting faired a slightly better result compared to default model.
 
-### Gradient Boosting is the best predictor model
+### Gradient Boosting is the best predictor model (in terms of MSE and R-squared).
 
 ## Feature Importance Analysis: Gradient Boosting Results
 I have trained a Gradient Boosting model to predict house prices using a variety of features, including some derived features and one-hot encoded zip code data. The results are quite revealing:
