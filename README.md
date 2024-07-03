@@ -10,10 +10,17 @@
   </tr>
 </table>
 
+## Introduction
+This is a capstone project submission for UC Berkeley School of Engineering and Haas School of Business' certification program in Machine Learning. 
+### Topic: 
+Using the real estate sales dataset for houses in California for 2021 January through July, identify a model and key features that can help predict prices for single family homes.
+### Author: 
+Vinay Jain [LinkedIn Profile](https://www.linkedin.com/in/vinay-jain-5151ba/), [Email Vinay](mailto:vinay.jn@gmail.com)
+
 ## Data set information:
 #### Source:
 - Dataset is from Kaggle: https://www.kaggle.com/datasets/yellowj4acket/real-estate-california/data 
-- This dataset shows real estate listing for California (US) for the first 6 months of 2021. Prices are listed in USD.
+- This dataset shows real estate listing for California (US) for the first 7 months of 2021. Prices are listed in USD.
 
 #### Data inderstanding:
 <pre>
