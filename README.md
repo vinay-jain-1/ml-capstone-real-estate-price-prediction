@@ -271,4 +271,4 @@ It's important to remember that these findings are based on the data and model u
 - Apply hyperparameter tuning using GridSearchCV
 - Feature importance derivation and definition
 - Plot views using matplotlib and seaborn libraries
-- Able to interpret findings and document/showcase findings to business counterparts
+- Able to interpret findings and document/showcase findings in business terms
