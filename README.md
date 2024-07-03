@@ -223,7 +223,7 @@ I have trained a Gradient Boosting model to predict house prices using a variety
 
 #### Interpreting the Results:
 - The high importance scores for bathrooms, LivingAreaPerRoom, and Rooms are intuitive and align with common real estate knowledge.
-- The significant influence of some zip codes highlights the importance of location and neighborhood factors.
+- The significant influence of some zip codes, beaches and architectural styles highlights the importance of location, style and neighborhood factors.
 
 #### Here are the top features with their importance scores:
 <pre>
@@ -255,3 +255,20 @@ For improving the model further, a few of the below steps can be taken:
 Overall, the feature importance analysis provides valuable insights into the factors driving house prices. By focusing on these key features and exploring the nuances of location, we can enhance our ability to predict house prices accurately.
 
 It's important to remember that these findings are based on the data and model used, and they might vary depending on the dataset and the model's parameters.
+
+## Key learnings applied in the Capstone project include:
+- Data analysis
+- Data cleansing
+- Feature engineering
+  - Natural Language Processing (NLTK, Tokenize, Stemming, Lemmatizing)
+  - Feature derivations
+  - Categorical value engineering using ColumnTransformers like OneHotEncoding
+- Linear Regression with multiple polynomial factors, apply standard scaling
+- Ridge Regression
+- Lasso Regression
+- Gradient Descent
+- Compare models using metrics
+- Apply hyperparameter tuning using GridSearchCV
+- Feature importance derivation and definition
+- Plot views using matplotlib and seaborn libraries
+- Able to interpret findings and document/showcase findings to business counterparts
