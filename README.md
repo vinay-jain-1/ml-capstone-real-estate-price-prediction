@@ -17,13 +17,15 @@ Using the real estate sales dataset for houses in California for 2021 January th
 ### Author: 
 Vinay Jain [LinkedIn Profile](https://www.linkedin.com/in/vinay-jain-5151ba/), [Email Vinay](mailto:vinay.jn@gmail.com)
 
+# Capstone presentation
+Capstone presentation can be found [here](Capstone%20presentation.pptx)
+
 # Source code
 ## Data analysis
 Data analysis of each of the attributes is detailed out in the [data analysis notebook](california_real_estate_price_predictor_data_analysis.ipynb)
 ## Data cleansing, feature engineering, modeling and feature importance
 All of the key implementation details can be found in the [California Price Predictor notebook](california_real_estate_price_predictor.ipynb)
-## Capstone presentation
-Capstone presentation can be found [here](Capstone%20presentation.pptx)
+
 
 # Data set information
 ## Source:
