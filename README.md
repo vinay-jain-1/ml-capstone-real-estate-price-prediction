@@ -265,6 +265,7 @@ It's important to remember that these findings are based on the data and model u
 - Ridge Regression
 - Lasso Regression
 - Gradient Descent
+- Neural Networks
 - Compare models using metrics
 - Apply hyperparameter tuning using GridSearchCV
 - Feature importance derivation and definition
